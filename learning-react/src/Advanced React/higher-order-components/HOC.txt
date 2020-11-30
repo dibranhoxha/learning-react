@@ -1,0 +1,10 @@
+Higher Order Components - HOC
+-----------------------------
+A pattern where a function takes a components as an argument and returns a new components
+
+                     |function           |
+const newComponent = higherOrderComponent( originalComponent )
+const EnhancedComponent = higherOrderComponent( originalComponent )
+
+i.e 
+const ironMan = withSuit( TonyStark )
